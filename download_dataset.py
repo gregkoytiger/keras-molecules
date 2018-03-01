@@ -7,8 +7,8 @@ from progressbar import ProgressBar, Percentage, Bar, ETA, FileTransferSpeed
 
 DEFAULTS = {
     "chembl22": {
-        "uri": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_22/archived/chembl_22_chemreps.txt.gz",
-        "outfile": "data/chembl22.h5"
+        "uri": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/chembl_23_chemreps.txt.gz",
+        "outfile": "/workspace/data/chembl_23/chembl23.h5"
     },
     "zinc12": {
         "uri": "http://zinc.docking.org/db/bysubset/13/13_prop.xls",
