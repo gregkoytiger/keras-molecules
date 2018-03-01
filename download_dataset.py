@@ -6,7 +6,7 @@ import tempfile
 from progressbar import ProgressBar, Percentage, Bar, ETA, FileTransferSpeed
 
 DEFAULTS = {
-    "chembl22": {
+    "chembl23": {
         "uri": "ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_23/chembl_23_chemreps.txt.gz",
         "outfile": "/workspace/data/chembl_23/chembl23.h5"
     },
