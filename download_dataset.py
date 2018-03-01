@@ -56,7 +56,7 @@ def main():
         df = pandas.read_csv(fd.name, delimiter = '\t')
         df = df.rename(columns={'SMILES':'structure'})
         df.to_hdf(outfile, 'table', format = 'table', data_columns = True)
-    elif dataset == 'chembl22':
+    elif dataset == 'chembl23':
         df = pandas.read_table(fd.name,compression='gzip')
         df = df.rename(columns={'canonical_smiles':'structure'})
         df.to_hdf(outfile, 'table', format = 'table', data_columns = True)
